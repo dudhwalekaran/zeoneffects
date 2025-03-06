@@ -16,7 +16,7 @@ export default function HomePage() {
     <div className="bg-gradient-to-br from-[#310708] to-[#890101] text-white font-sans min-h-screen">
       {/* Header Section with Animation */}
       <motion.header
-        className="bg-gradient-to-r from-gray-900 via-gray-700 to-black text-center py-24 bg-cover bg-center"
+        className="text-center py-24 bg-cover bg-center"
         style={{
           backgroundImage:
             "url('https://www.example.com/video-editing-image.jpg')",
@@ -45,120 +45,6 @@ export default function HomePage() {
         </motion.p>
       </motion.header>
 
-      {/* Pricing Section with Animation */}
-      <section>
-        <div className="container px-5 py-10 mx-auto max-w-7xl">
-          <h1 className="mb-16 text-4xl font-bold text-center text-yellow-400">
-            Choose Your Best Plan
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="flex flex-col bg-gradient-to-br from-[#310708] to-[#890101] p-8 rounded-lg shadow-xl transform transition duration-500 hover:scale-105">
-              <h3 className="text-2xl font-semibold mb-4">Basic Editing</h3>
-              <h1 className="text-5xl font-bold mb-4">
-                $19 <span className="text-sm text-gray-400">/Reel</span>
-              </h1>
-              <p className="text-lg text-gray-300 mb-6">
-                Simple edits with basic trimming and cuts
-              </p>
-              <div className="space-y-4 text-gray-200 mb-8">
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Color corrections & adjustments</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Simple Transitions</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Up to 2 revisions</p>
-                </div>
-              </div>
-              <Link href={`/paypal/${19}`}>
-                <button className="flex justify-center items-center px-2 w-64 py-2 font-bold text-black bg-white rounded-3xl border border-black hover:bg-gray-100 transition duration-300">
-                  Get Started
-                  <span className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full ml-8">
-                    &rarr;
-                  </span>
-                </button>
-              </Link>
-            </div>
-
-            <div className="flex flex-col bg-gradient-to-br from-[#310708] to-[#890101] p-8 rounded-lg shadow-xl transform transition duration-500 hover:scale-105">
-              <h3 className="text-2xl font-semibold mb-4">Standard Editing</h3>
-              <h1 className="text-5xl font-bold mb-4">
-                $24 <span className="text-sm text-gray-400">/Reel</span>
-              </h1>
-              <p className="text-lg text-gray-300 mb-6">
-                All features of basic package
-              </p>
-              <div className="space-y-4 text-gray-200 mb-8">
-                <div className="flex items-center space-x-3">
-                  <i className="text-white fa-solid fa-circle-check"></i>
-                  <p>Advanced transiotions</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-white fa-solid fa-circle-check"></i>
-                  <p>Basic motions graphics</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-white fa-solid fa-circle-check"></i>
-                  <p>Text animations, simple intro/outro</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Up to 3 revisions</p>
-                </div>
-              </div>
-              <Link href={`/paypal/${24}`}>
-                <button className="flex justify-center items-center px-2 w-64 py-2 font-bold text-black bg-white rounded-3xl border border-black hover:bg-gray-100 transition duration-300">
-                  Get Started
-                  <span className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full ml-8">
-                    &rarr;
-                  </span>
-                </button>
-              </Link>
-            </div>
-
-            <div className="flex flex-col bg-gradient-to-br from-[#310708] to-[#890101] p-8 rounded-lg shadow-xl transform transition duration-500 hover:scale-105">
-              <h3 className="text-2xl font-semibold mb-4">Premium Editing</h3>
-              <h1 className="text-5xl font-bold mb-4">
-                $29 <span className="text-sm text-gray-400">/Reel</span>
-              </h1>
-              <p className="text-lg text-gray-300 mb-6">
-                All features of standard package
-              </p>
-              <div className="space-y-4 text-gray-200 mb-8">
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Custom overlays and effects</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Advanced Effects & Color Grading</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Noise removal & audio enhancement</p>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <i className="text-blue-400 fa-solid fa-circle-check"></i>
-                  <p>Up to 5 revisions</p>
-                </div>
-              </div>
-              <Link href={`/paypal/${29}`}>
-                <button className="flex justify-center items-center px-2 w-64 py-2 font-bold text-black bg-white rounded-3xl border border-black hover:bg-gray-100 transition duration-300">
-                  Get Started
-                  <span className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full ml-8">
-                    &rarr;
-                  </span>
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Link href="https://calendly.com/zeoneffects07/30min" target="_black">
         <div className="flex justify-center items-center">
           <button className="py-3 mb-10 border border-black bg-black mt-10 text-white px-7 rounded-xl hover:text-black hover:bg-white font-semibold text-lg">
@@ -168,7 +54,7 @@ export default function HomePage() {
       </Link>
 
       {/* Why Choose Us Section */}
-      <section className="py-16 bg-gray-800 text-center">
+      <section className="py-16 text-center">
         <motion.h2
           className="text-3xl font-semibold mb-6"
           initial={{ opacity: 0 }}
@@ -210,7 +96,7 @@ export default function HomePage() {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-16">
         <motion.h2
           className="text-3xl font-semibold text-center mb-6"
           initial={{ opacity: 0 }}
@@ -220,70 +106,134 @@ export default function HomePage() {
           Our Portfolio
         </motion.h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <video controls className="w-full rounded-lg mb-4">
-              <source src="/long.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <iframe
+              className="w-full rounded-lg mb-4"
+              src="https://drive.google.com/file/d/1_nwdORbbn4UkK8qqvyKTDlm-bpNNN5VG/preview"
+              width="640"
+              height="320"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            ></iframe>
+
             <p className="text-center">Sample Video 1</p>
           </div>
 
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <video controls className="w-full rounded-lg mb-4">
-              <source src="long.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <p className="text-center">Sample Video 2</p>
+          <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <iframe
+              className="w-full rounded-lg mb-4"
+              src="https://drive.google.com/file/d/1E33ZkMA9h_iRFNDyo-HqvbeWqUQHCguD/preview"
+              width="640"
+              height="320"
+              frameBorder="0"
+              allow="autoplay"
+            ></iframe>
+            <p className="text-center">Iman Gadzhi Style</p>
           </div>
         </div>
       </section>
 
       <section>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 bg-[#111827]">
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <video controls className="w-full aspect-[9/16] rounded-lg mb-4">
-              <source src="/eg.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <p className="text-center">Short Reel 1</p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <iframe
+              className="w-full aspect-[9/16] rounded-lg"
+              src="https://drive.google.com/file/d/1Hq7--s5Yl_jtFe5DBd9M71jX1V_5E1hQ/preview"
+              width="100%"
+              height="94%"
+              allow="autoplay; encrypted-media"
+              frameBorder="0"
+            ></iframe>
+            <p className="text-center mt-4">Commercial Style</p>
           </div>
 
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <video controls className="w-full aspect-[9/16] rounded-lg mb-4">
-              <source src="/eg2.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <p className="text-center">Short Reel 2</p>
+          <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "177.77%" }}
+            >
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
+                src="https://drive.google.com/file/d/1Uq41KWe93CvT20wWw-FLQnWbASxcB8F4/preview"
+                frameBorder="0"
+                allow="autoplay"
+              ></iframe>
+            </div>
+            <p className="text-center mt-4">Documentary Style</p>
           </div>
 
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <video controls className="w-full aspect-[9/16] rounded-lg mb-4">
-              <source src="/eg1.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <p className="text-center">Short Reel 3</p>
+          <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "177.77%" }}
+            >
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
+                src="https://drive.google.com/file/d/1Mw6sGrBI3mc1WQBedcvlfcDlf58pm3j4/preview"
+                frameBorder="0"
+                allow="autoplay"
+              ></iframe>
+            </div>
+            <p className="text-center mt-4">Short Reel 3</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gradient-to-br from-[#310708] to-[#890101]">
+        <div className="container mx-auto text-center mt-10 mb-10">
+          <h2 className="text-3xl font-semibold text-white mb-8">
+            Software We Use
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-0">
+            <div className="flex justify-center">
+              <img
+                className="w-24 h-24 rounded-full"
+                src="images/premiere-pro.svg"
+                alt="Premiere Pro Logo"
+              />
+            </div>
+
+            <div className="flex justify-center">
+              <img
+                className="w-24 h-24 rounded-full"
+                src="images/after-effects.svg"
+                alt="After Effects Logo"
+              />
+            </div>
+
+            <div className="flex justify-center">
+              <img
+                className="w-24 h-24 rounded-full"
+                src="images/blender.png"
+                alt="Blender Logo"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       {/* FAQ Section with Accordion and Animation */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 text-white">
         <div className="max-w-screen-xl mx-auto text-center px-6">
           <h2 className="text-3xl font-semibold mb-6">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {[
-              "What if i want custome packages?",
+              "What if I want custom packages?",
               "Can I upgrade later?",
               "What is the turnaround time?",
               "How does the revision process work?",
               "I need expedited delivery?",
-              "What if i want more revisions?",
-              "Which software's do we use?",
-              "how to get started?",
+              "What if I want more revisions?",
+              "Which software do we use?",
+              "How to get started?",
             ].map((question, index) => (
-              <div key={index} className="bg-gray-800 p-4 rounded-lg">
+              <div
+                key={index}
+                className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black"
+              >
                 <div
                   className="flex justify-between items-center cursor-pointer"
                   onClick={() => toggleAccordion(index)}
@@ -296,21 +246,21 @@ export default function HomePage() {
                 {activeIndex === index && (
                   <p className="text-gray-400 mt-4">
                     {index === 0 &&
-                      "You can contact to our team by just setting the meeting."}
+                      "You can contact our team by just setting the meeting."}
                     {index === 1 &&
                       "Yes, you can upgrade to a higher plan at any time. Contact our support team for assistance."}
                     {index === 2 &&
                       "On average, most requests are completed in just 3 days or less. However, more complex requests can take longer."}
                     {index === 3 &&
-                      "Just simply contact us and provide want you want."}
+                      "Just simply contact us and provide what you want."}
                     {index === 4 &&
-                      "Simple contact us, We'll provide as quick as we can."}
+                      "Simply contact us, we'll provide it as quick as we can."}
                     {index === 5 &&
-                      "$3 Per revision if you already run out of revisions in the packages."}
+                      "$3 per revision if you already run out of revisions in the packages."}
                     {index === 6 &&
-                      "Adobe premiere pro, Adobe after effects & Blender."}
+                      "Adobe Premiere Pro, Adobe After Effects & Blender."}
                     {index === 7 &&
-                      "After you make payment contact +91 8591364840 with payment id and SS."}
+                      "After you make payment, contact +91 8591364840 with payment ID and SS."}
                   </p>
                 )}
               </div>
@@ -318,7 +268,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <h4 className="pb-10 flex justify-center items-center text-xl bg-[#111827]">
+
+      <h4 className="pb-10 flex justify-center items-center text-xl">
         If you get any problem contact on +91 8591364840
       </h4>
     </div>
