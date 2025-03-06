@@ -189,7 +189,7 @@ export default function HomePage() {
             <div className="flex justify-center">
               <img
                 className="w-24 h-24 rounded-full"
-                src="images/premiere-pro.svg"
+                src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg"
                 alt="Premiere Pro Logo"
               />
             </div>
@@ -197,7 +197,7 @@ export default function HomePage() {
             <div className="flex justify-center">
               <img
                 className="w-24 h-24 rounded-full"
-                src="images/after-effects.svg"
+                src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/after-effects-40.svg"
                 alt="After Effects Logo"
               />
             </div>
@@ -205,7 +205,7 @@ export default function HomePage() {
             <div className="flex justify-center">
               <img
                 className="w-24 h-24 rounded-full"
-                src="images/blender.png"
+                src="https://www.blender.org/wp-content/uploads/2020/07/blender_community_logo_white-394x512.png"
                 alt="Blender Logo"
               />
             </div>
