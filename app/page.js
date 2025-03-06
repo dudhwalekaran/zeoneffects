@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full rounded-lg mb-4"
-              src="https://drive.google.com/file/d/1_nwdORbbn4UkK8qqvyKTDlm-bpNNN5VG/preview"
+              src="https://drive.google.com/file/d/1lIfissvTr_PuQMBHOi2FoISEoVZCc01z/preview"
               width="640"
               height="320"
               frameBorder="0"
@@ -170,7 +170,7 @@ export default function HomePage() {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
-                src="https://drive.google.com/file/d/1Mw6sGrBI3mc1WQBedcvlfcDlf58pm3j4/preview"
+                src="https://drive.google.com/file/d/1u4ECpNQE0PmHEgOvD3jnz8Rhjz--9pXS/preview"
                 frameBorder="0"
                 allow="autoplay"
               ></iframe>
