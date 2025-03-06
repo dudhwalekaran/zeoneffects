@@ -22,7 +22,7 @@ export default function Layout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
         />
       </head>
-      <body className={isPaypalPage ? "" : "bg-[#1F2937]"}>
+      <body className={isPaypalPage ? "" : "bg-gradient-to-br from-[#310708] to-[#890101]"}>
         {/* Header (Navbar) */}
         {!isPaypalPage && (
           <header className="bg-black text-white shadow-md py-4">
@@ -39,7 +39,7 @@ export default function Layout({ children }) {
                   </li>
                   <li>
                     <Link
-                      href="/#pricing"
+                      href="pricing"
                       className="hover:text-blue-500 transition"
                     >
                       Pricing
