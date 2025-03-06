@@ -139,7 +139,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full aspect-[9/16] rounded-lg"
-              src="https://drive.google.com/file/d/1Hq7--s5Yl_jtFe5DBd9M71jX1V_5E1hQ/preview"
+              src="https://drive.google.com/file/d/1gLBDglTt9MKnId-BFst4Ef_lmbFKb3tf/preview"
               width="100%"
               height="94%"
               allow="autoplay; encrypted-media"
