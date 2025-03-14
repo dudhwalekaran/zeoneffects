@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full rounded-lg mb-4"
-              src="https://drive.google.com/file/d/1lIfissvTr_PuQMBHOi2FoISEoVZCc01z/preview"
+              src="https://drive.google.com/file/d/1bGGuIG9WLFcgM4pmhYPbz5p-nYziDqm5/preview"
               width="640"
               height="320"
               frameBorder="0"
@@ -139,7 +139,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full aspect-[9/16] rounded-lg"
-              src="https://drive.google.com/file/d/1gLBDglTt9MKnId-BFst4Ef_lmbFKb3tf/preview"
+              src="https://drive.google.com/file/d/1d8s_b58ZlWX5Of6tq1DLQOar-CATESU0/preview"
               width="100%"
               height="94%"
               allow="autoplay; encrypted-media"
@@ -170,7 +170,7 @@ export default function HomePage() {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
-                src="https://drive.google.com/file/d/1u4ECpNQE0PmHEgOvD3jnz8Rhjz--9pXS/preview"
+                src="https://drive.google.com/file/d/1sZd5s_eDrzJ9JJRNgoJPhiUtTak6fNRX/preview"
                 frameBorder="0"
                 allow="autoplay"
               ></iframe>
