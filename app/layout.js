@@ -30,23 +30,6 @@ export default function Layout({ children }) {
               <Link href="/" className="text-3xl font-bold">
                 <span className="text-red-700">Zeon</span>Effects
               </Link>
-              <nav>
-                <ul className="flex space-x-8 text-lg">
-                  <li>
-                    <Link href="/" className="hover:text-blue-500 transition">
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="pricing"
-                      className="hover:text-blue-500 transition"
-                    >
-                      Pricing
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
             </div>
           </header>
         )}
