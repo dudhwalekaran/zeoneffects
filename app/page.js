@@ -189,7 +189,7 @@ export default function HomePage() {
                 allow="autoplay"
               ></iframe>
             </div>
-            <p className="text-center mt-4">Short Reel 4</p>
+            <p className="text-center mt-4">3D Documentary style</p>
           </div>
                   <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <div
@@ -203,7 +203,7 @@ export default function HomePage() {
                 allow="autoplay"
               ></iframe>
             </div>
-            <p className="text-center mt-4">Short Reel 5</p>
+            <p className="text-center mt-4">3D documentary style</p>
           </div>
                   <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <div
@@ -217,7 +217,7 @@ export default function HomePage() {
                 allow="autoplay"
               ></iframe>
             </div>
-            <p className="text-center mt-4">Short Reel 6</p>
+            <p className="text-center mt-4">3D documentary style map animation</p>
           </div>
         </div>
       </section>
