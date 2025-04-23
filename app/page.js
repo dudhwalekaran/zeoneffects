@@ -177,6 +177,48 @@ export default function HomePage() {
             </div>
             <p className="text-center mt-4">Short Reel 3</p>
           </div>
+            <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "177.77%" }}
+            >
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
+                src="https://drive.google.com/file/d/1S89Pin1f_LLe7BGwnt4-EN6b_ngXGFsP/preview"
+                frameBorder="0"
+                allow="autoplay"
+              ></iframe>
+            </div>
+            <p className="text-center mt-4">Short Reel 4</p>
+          </div>
+                  <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "177.77%" }}
+            >
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
+                src="https://drive.google.com/file/d/1rEn-Wzn4OFO1O1hYEROWoAeQMM7hC8eA/preview"
+                frameBorder="0"
+                allow="autoplay"
+              ></iframe>
+            </div>
+            <p className="text-center mt-4">Short Reel 5</p>
+          </div>
+                  <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "177.77%" }}
+            >
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
+                src="https://drive.google.com/file/d/15DIeSZXwKGyJW2pNhrPEIF5kMBbziP06/preview"
+                frameBorder="0"
+                allow="autoplay"
+              ></iframe>
+            </div>
+            <p className="text-center mt-4">Short Reel 6</p>
+          </div>
         </div>
       </section>
 
