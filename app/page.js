@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full rounded-lg mb-4"
-              src="https://drive.google.com/file/d/1bGGuIG9WLFcgM4pmhYPbz5p-nYziDqm5/preview"
+              src="https://drive.google.com/uc?export=download&id=1bGGuIG9WLFcgM4pmhYPbz5p-nYziDqm5"
               width="640"
               height="320"
               frameBorder="0"
@@ -123,7 +123,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full rounded-lg mb-4"
-              src="https://drive.google.com/file/d/1E33ZkMA9h_iRFNDyo-HqvbeWqUQHCguD/preview"
+              src="https://drive.google.com/uc?export=download&id=1E33ZkMA9h_iRFNDyo-HqvbeWqUQHCguD"
               width="640"
               height="320"
               frameBorder="0"
@@ -139,7 +139,7 @@ export default function HomePage() {
           <div className="bg-[#a01b1f] p-4 rounded-lg shadow-2xl border border-black">
             <iframe
               className="w-full aspect-[9/16] rounded-lg"
-              src="https://drive.google.com/file/d/1d8s_b58ZlWX5Of6tq1DLQOar-CATESU0/preview"
+              src="https://drive.google.com/uc?export=download&id=1d8s_b58ZlWX5Of6tq1DLQOar-CATESU0"
               width="100%"
               height="94%"
               allow="autoplay; encrypted-media"
@@ -155,7 +155,7 @@ export default function HomePage() {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
-                src="https://drive.google.com/file/d/1Uq41KWe93CvT20wWw-FLQnWbASxcB8F4/preview"
+                src="https://drive.google.com/uc?export=download&id=1Uq41KWe93CvT20wWw-FLQnWbASxcB8F4"
                 frameBorder="0"
                 allow="autoplay"
               ></iframe>
@@ -170,7 +170,7 @@ export default function HomePage() {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
-                src="https://drive.google.com/file/d/1sZd5s_eDrzJ9JJRNgoJPhiUtTak6fNRX/preview"
+                src="https://drive.google.com/uc?export=download&id=1sZd5s_eDrzJ9JJRNgoJPhiUtTak6fNRX"
                 frameBorder="0"
                 allow="autoplay"
               ></iframe>
@@ -184,7 +184,7 @@ export default function HomePage() {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
-                src="https://drive.google.com/file/d/1S89Pin1f_LLe7BGwnt4-EN6b_ngXGFsP/preview"
+                src="https://drive.google.com/uc?export=download&id=1S89Pin1f_LLe7BGwnt4-EN6b_ngXGFsP"
                 frameBorder="0"
                 allow="autoplay"
               ></iframe>
@@ -198,7 +198,7 @@ export default function HomePage() {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-lg mb-4"
-                src="https://drive.google.com/file/d/1rEn-Wzn4OFO1O1hYEROWoAeQMM7hC8eA/preview"
+                src="https://drive.google.com/uc?export=download&id=1rEn-Wzn4OFO1O1hYEROWoAeQMM7hC8eA"
                 frameBorder="0"
                 allow="autoplay"
               ></iframe>
